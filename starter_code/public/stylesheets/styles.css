@@ -1,8 +1,33 @@
-/*
+/* 
 white: #F7F9F9;
 light-blue: #2081C3;
 dark-blue: #0A2C42;
 grey: rgba(145, 145, 145, 0.481);
-font-family: Arial, Helvetica, sans-serif
-*/
-  
+font-family: Arial, Helvetica, sans-serif */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color :  rgba(145, 145, 145, 0.481);
+}
+
+footer{
+    background-color : #0A2C42;
+    color : #F7F9F9;
+    height : 60px;
+    position : fixed; 
+    bottom: 0; left: 0; right: 0; 
+    
+}
+.container img{
+    justify-content:center;
+    margin-left:40%;
+    margin-top:10%;
+} 
+.container button {
+    background-color :#2081C3;
+    color:#F7F9F9;
+    width:20%;
+    display:block;
+    margin-left:40%;
+    margin-top:10px;
+    border-radius: 6px;
+}
